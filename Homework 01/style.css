@@ -1,0 +1,40 @@
+body {
+    background: #f6f6f6;
+    font-family: sans-serif;
+    color: #05080C;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header {
+    border-top: 5px solid #222222;
+    padding: 0 100px;
+}
+
+article {
+    border-bottom: 5px solid #222222;
+    padding: 0 100px;
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    background: #eee;
+    padding: 10px;
+}
+
+th {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+
+
