@@ -1,0 +1,96 @@
+
+.exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseHeader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 320px;
+    margin: 10px;
+}
+
+.exerciseHeaderLogo {
+    width: 200px;
+    height: 80px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.exerciseHeaderNav {
+
+}
+
+.exerciseHeaderNav ul {
+    /* display: flex;
+    width: 80%;
+    gap: 10px;
+    list-style-type: none;
+    margin-left: 100px;
+    height: 50px;
+    align-self: center; */
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.exerciseHeaderNav ul li {
+    min-width: 150px;
+    margin: 0 10px 10px 0;
+    flex: 1;
+
+}
+
+
+/* Main */
+
+.exerciseMain {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.exerciseMainLeftNav {
+   flex: 1;
+   margin-right: 10px;
+}
+
+.exerciseMainContent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 3;
+    overflow:hidden;
+}
+
+.exerciseMainContent > * {
+    display: flex;
+    margin: 10px;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.exerciseMainContentBanner {
+    margin-bottom: 10px;
+    height: 110px;
+}
+
+.exerciseMainContentSubBanner {
+    margin-bottom: 10px;
+    height: 300px;
+    width: 1000px;
+
+}
+
+.exerciseMainContentBlock {
+    height: 50px;
+    width: 260px;
+    height: 300px;
+    margin-left: 20px;
+
+}
