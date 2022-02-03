@@ -5,27 +5,26 @@
 
 .exerciseMainFeatures {
     display: flex;
-    margin-bottom: 10px;
-    gap: 10px;
 }
 
 .exerciseMainFeatures .exerciseMarketingFeature {
     width: 50%;
+    margin-bottom: 10px;
 }
 
 .exerciseMainFeatures .exerciseMarketingFeature:first-child {
-    margin-left: 0px;
+    margin-right: 10px;
 }
 
 .exerciseAdditionalFeatures {
-    display:flex;
+    display: flex;
     gap: 10px;
 }
+
 
 .exerciseAdditionalFeatures .exerciseMarketingFeature {
     width: 33.33%;
 }
 
 .exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
-margin-left: 0px;
 }
