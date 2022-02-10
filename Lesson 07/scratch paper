@@ -1,0 +1,24 @@
+var a = player a
+var b = player b
+
+if a = scissors and b = rock
+    b wins
+
+if a = scissors and b = paper
+    a wins
+
+if a = paper and b = rock
+    a wins
+
+if a = paper and b = scissors
+    b wins
+
+if a = rock and b = paper
+    b wins
+
+if a = rock and b = scissors
+    a wins
+
+if a == b 
+    no winner
+
