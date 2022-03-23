@@ -1,0 +1,102 @@
+html {
+    height: 90%;
+}
+
+body {
+    background-image: url("images/universe_background.png");
+    height: 100%;
+}
+
+.homeTitle {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.universeHome {
+}
+
+.portalOne {
+    height: 125px;
+    width: 125px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.portalTwo {
+    height: 125px;
+    width: 125px;
+    margin-left: 60%;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.portalThree {
+    height: 125px;
+    width: 125px;
+    margin-left: 30%;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.portalFour {
+    height: 125px;
+    width: 125px;
+    margin-left: 90%;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.bottom {
+    bottom: 0;
+    height: 90%;
+}
+
+.C {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 0;
+    height: 90%
+}
+
+.spaceship {
+    height: 125px;
+    width: 125px;
+    bottom: 0;
+}
+
+.spaceshipHidden {
+    display: none;
+}
+
+.bottomHidden {
+    display: none;
+}
