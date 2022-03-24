@@ -12,7 +12,7 @@ let spaceSection = document.querySelector(".B");
 function universeHome() {
     document.body.style.backgroundImage = "url(images/universe_background.png)";
     document.body.style.backgroundRepeat = 'no-repeat';
-    document.body.style.backgroundSize = "100%";
+    document.body.style.backgroundSize = "cover";
     portalOne.style.display = "block";
     portalTwo.style.display = "block";
     portalThree.style.display = "block";
@@ -70,7 +70,7 @@ function worldThree() {
 }
 
 function worldFour() {
-    document.body.style.backgroundImage = "url(images/worldFour.jpeg)";
+    document.body.style.backgroundImage = "url(images/worldFive.png)";
     document.body.style.backgroundRepeat = 'no-repeat';
     document.body.style.backgroundSize = "cover";
     portalOne.style.display = "none";

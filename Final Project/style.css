@@ -1,10 +1,15 @@
 html {
-    height: 90%;
+    /* height: 90%; */
 }
 
 body {
     background-image: url("images/universe_background.png");
-    height: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-color: greenyellow;
+    position: relative;
+    display: block;
+    overflow: auto;
 }
 
 .homeTitle {
@@ -77,6 +82,7 @@ body {
 .bottom {
     bottom: 0;
     height: 90%;
+    position: absolute;
 }
 
 .C {
