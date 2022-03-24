@@ -3,7 +3,6 @@ let portalOne = document.querySelector(".portalOne");
 let portalTwo = document.querySelector(".portalTwo");
 let portalThree = document.querySelector(".portalThree");
 let portalFour = document.querySelector(".portalFour");
-// let home = document.querySelector(".universeHome");
 let title = document.querySelector(".A")
 let spaceship = document.querySelector(".ship");
 let spaceSection = document.querySelector(".B");
@@ -20,8 +19,6 @@ function universeHome() {
     title.style.display = "block";
     spaceship.classList.add("spaceshipHidden");
     spaceship.classList.remove("spaceship");
-    // spaceship.classList.add("bottom");
-    // spaceship.classList.remove("bottomHidden");
 }
 
 function worldOne() {
